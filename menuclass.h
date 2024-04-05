@@ -121,6 +121,7 @@ class menu{
                                 cout<<"\n"<<titleVector[Titlecounter];
                             SetConsoleTextAttribute(hConsole, 07); // MODIFY for custom text color
                             for (int i=Titlecounter+1; i <=titleVector.size()-1; i++){
+                                cout<<"\n"<<titleVector[i];
                             }
                         }else if (i==VK_RIGHT){ // MODIFY for custom 'select'-key
                             system("cls");
