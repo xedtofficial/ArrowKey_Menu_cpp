@@ -23,7 +23,7 @@ Next, add `#include "menuclass.h"` at the beginning of the instance you want to 
 ## How To Use
 Use the `menu` keyword to create a menu first. <br>
 Then place up to 6 selection options with `.setTitle()`. <br>
-Next, use `.chooseTitle()` to let the user choose a option and to get the return value. <br>
+Next, use `.chooseTitle()` to let the user choose an option and to get the return value. <br>
 You can use `.ModeToSet` to store the return value as integer. <br>
  <br>
 
