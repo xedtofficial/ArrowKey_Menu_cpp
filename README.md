@@ -1,5 +1,5 @@
 # ArrowkeyMenu_C++
-###### v.1
+###### v0.1.0
   
 ## Overview
 A clean and easy to use header file for a selection menu with arrow keys and return values. <br>
