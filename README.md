@@ -8,7 +8,7 @@ However, everything works out of the box. <br>
 ## Features
 
 - Toggle with ↑↓ and select with →
-- Add up to any amount of selection options
+- Up to any amount of selection options you want
 - Get return values
 - Customize color
 - Customize header
