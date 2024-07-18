@@ -1,5 +1,5 @@
 # ArrowkeyMenu_C++
-###### v0.1.0
+###### v0.1.1
   
 ## Overview
 A clean and easy to use header file for a selection menu with arrow keys and return values. <br>
@@ -8,10 +8,10 @@ However, everything works out of the box. <br>
 ## Features
 
 - Toggle with ↑↓ and select with →
-- Add up to any 6 selection options (increaseable)
+- Add up to any amount of selection options
 - Get return values
 - Customize color
-- Customize head-text
+- Customize header
 - Easy to use
 <br>
 
@@ -22,15 +22,23 @@ Next, add `#include "menuclass.h"` at the beginning of the instance you want to 
  
 ## How To Use
 Use the `menu` keyword to create a menu first. <br>
-Then place up to 6 selection options with `.setTitle()`. <br>
+Then use `.setTitle()` to add option titles. <br>
 Next, use `.chooseTitle()` to let the user choose an option and to get the return value. <br>
 You can use `.ModeToSet` to store the return value as integer. <br>
  <br>
 
     int main(){
-      menu home; 
-      home.setTitle("  Option 1  ","  Option 2  ","  Option 3  ", ...);
-      home.ModeToSet = home.chooseTitle();
+    menu home;
+      home.setTitle(" Option ~~~~~~~~~~ 1 ");
+      home.setTitle(" Option ~~~~~~~~~~ 2 ");
+      home.setTitle(" Option ~~~~~~~~~~ 3 ");
+      home.setTitle(" Option ~~~~~~~~~~ 4 ");
+      home.setTitle(" Option ~~~~~~~~~~ 5 ");
+      home.setTitle(" Option ~~~~~~~~~~ 6 ");
+      //...
+
+      home.ModeToSet = home.chooseTitle() + 1;
+      cout<<"Selected Option: "<<home.ModeToSet;
     }    
 <br>
  
@@ -54,6 +62,6 @@ https://github.com/xedtofficial/VerticalArrowKeySelectionMenu_c-cpp/assets/11371
 MIT License <br>
 This program can cause unexpected behavior. <br>
 This program uses the WindowsAPI. <br>
-First option will have the return value 0. <br>
+First option will have the return value 0 by default. <br>
 
 
