@@ -28,7 +28,7 @@ You can use `.ModeToSet` to store the return value as integer. <br>
  <br>
 
     int main(){
-    menu home;
+      menu home;
       home.setTitle(" Option ~~~~~~~~~~ 1 ");
       home.setTitle(" Option ~~~~~~~~~~ 2 ");
       home.setTitle(" Option ~~~~~~~~~~ 3 ");
@@ -37,7 +37,7 @@ You can use `.ModeToSet` to store the return value as integer. <br>
       home.setTitle(" Option ~~~~~~~~~~ 6 ");
       //...
 
-      home.ModeToSet = home.chooseTitle() + 1;
+      home.ModeToSet = home.chooseTitle() ;
       cout<<"Selected Option: "<<home.ModeToSet;
     }    
 <br>
